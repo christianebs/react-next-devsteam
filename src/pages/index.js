@@ -1,6 +1,7 @@
-import { useState } from 'react'
-
 import Head from 'next/head'
+import { useRecoilState } from 'recoil'
+
+import { cartState } from '@/atoms/cart'
 
 import styles from '@/styles/index.module.css'
 
@@ -11,14 +12,10 @@ import SaleCard from '@/components/cards/saleCard/saleCard'
 import GameCard from '@/components/cards/gameCard/gameCard'
 
 export default function Home() {
-  const [cart, setCart] = useState([])
+  const [cart, setCart] = useRecoilState(cartState)
 
   const handleAddProduct = (info) => {
     setCart([...cart, info])
-  }
-
-  const handleRemoveProduct = (pos) => {
-    setCart(cart.filter((obj, posObj) => posObj !== pos))
   }
 
   return (
@@ -30,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Navbar cart={cart} onRemove={handleRemoveProduct} />
+        <Navbar />
         <Container>
           <div className={styles.session}>
             <Subtitle>Promoções</Subtitle>
