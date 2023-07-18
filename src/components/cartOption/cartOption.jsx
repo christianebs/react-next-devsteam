@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import style from './cartOption.module.css'
 
-export default function CartOption({ image, tile, price, onRemove }) {
+export default function CartOption({ image, title, price, onRemove }) {
     return(
         <div className={style.option}>
             <Image className={style.image} src={`/products/${image}`} alt={`Produto ${image}`} width={62} height={74} />
