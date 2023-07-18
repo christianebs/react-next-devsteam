@@ -10,7 +10,7 @@ Esse projeto foi inspirado na Steam e desenvolvido de forma totalmente profissio
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=CC6699">
   <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=CC6699">
   <img src="https://img.shields.io/badge/Next-0D1117?style=for-the-badge&logo=next.js&logoColor=CC6699">
-  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=CC6699">
+  <img src="https://img.shields.io/badge/vercel-0D1117.svg?style=for-the-badge&logo=vercel&logoColor=CC6699">
 </p>
 
 ### Pré requisitos
