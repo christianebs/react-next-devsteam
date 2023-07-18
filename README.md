@@ -10,6 +10,7 @@ Esse projeto foi inspirado na Steam e desenvolvido de forma totalmente profissio
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=CC6699">
   <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=CC6699">
   <img src="https://img.shields.io/badge/Next-0D1117?style=for-the-badge&logo=next.js&logoColor=CC6699">
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=CC6699">
 </p>
 
 ### Pré requisitos
@@ -46,4 +47,5 @@ Este projeto faz parte da **Semana da Evolução na Programação** do SejaDev.
 
 <h2><img width="20px" src="https://github.com/christianebs/christianebs/assets/108686840/a2e28590-7b92-43d6-bc0c-8f7461b1914c"> Links </h2>
 
+- [Projeto](https://react-next-devsteam.vercel.app/)
 - [SejaDev](https://www.youtube.com/@sejaDev)
